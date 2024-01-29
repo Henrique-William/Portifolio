@@ -1,0 +1,21 @@
+@import url('styles/header.css');
+@import url('styles/projetos.css');
+
+:root {
+    --fonte-titulo: 'Krona One';
+    --fonte-principal: 'Montserrat';
+    --preto: #212121;
+    --branco: #FFFFFF;
+}
+
+* {
+    background-color: var(--preto);
+}
+
+body {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    font-size: 20px;
+    /* overflow-y: hidden;
+    overflow-x: hidden;  */
+}
